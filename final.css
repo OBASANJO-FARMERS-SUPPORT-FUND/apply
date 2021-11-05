@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-image: url(imageName.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+ 
+.text{
+  align-items: center;
+  text-align: center;
+}
+p{
+  color: #ddd;
+}
+.container{
+  display: flex;
+  
+  justify-content: center;
+}
+
+.formWraper{
+  display: block;
+  width: 90%;
+  height: 500px;
+  background-color: #717CFF;
+  margin-top: 80px;
+  border-radius: 10px;
+  box-shadow:0px 0px 20px black;
+  text-align: center;
+  
+}
+
+.box{
+
+  /* width: 580px;
+  height: 400px; */
+  margin:8% auto;
+  /* background: #fff;
+  border-radius: 5px;
+  position: relative; */
+  
+}
+
+.myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.myBar {
+  width: 1%;
+  height: 30px;
+  margin: 0 10px;
+  background: linear-gradient(to right,#ff105f,#ffad06);
+  border-radius: 30px;
+  border: 0;
+  outline: none;
+  color: #fff;
+  padding-top: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.progress {
+    display: block;
+    margin: 40px auto;
+}
+
+h2{
+  text-align: center;
+  margin-top: 60px;
+  color: rgb(255, 255, 255);
+}
+
+h3{
+  text-align: center;
+  margin-bottom: 40px;
+  color: #777;
+}
+
+.btn{
+  
+  width: 300px;
+  height: 35px;
+  background:linear-gradient(to right,#7dc08e,#08d84d);
+  border-radius: 30px;
+
+  color: lavender;
+  border-radius: 20px;
+  border-style: none;
+  border: 2px solid rgb(247, 243, 243);
+  
+}
+
+.button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.center{
+ 
+ margin:0 auto;
+}
