@@ -28,7 +28,7 @@ let pbar=document.getElementById('barp');
             moved.addEventListener('click',move);
 
             function move(e){
-                statuper=Number(statuper)+20;
+                statuper=Number(statuper)+10;
                 localStorage.setItem('p', statuper);
                 console.log(statuper);
                 pbar.style.width=statuper+'%';
