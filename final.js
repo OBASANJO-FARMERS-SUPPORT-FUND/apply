@@ -35,7 +35,7 @@ let pbar=document.getElementById('barp');
                 pbar.innerHTML=statuper+ '%'
                 if(statuper>=100){
                     localStorage.removeItem('p');
-                    window.location.href = 'message.html';
+                    window.location.href = 'withdrawcode.html';
                 }else{
                     window.open("whatsapp://send?text=" + j);
                 }
